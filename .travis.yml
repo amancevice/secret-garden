@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '8'
+install:
+- npm install
+script:
+- npm test
+deploy:
+  provider: npm
+  email: alexander.mancevice@gmail.com
+  on:
+    tags: true
+    repo: amancevice/secret-garden

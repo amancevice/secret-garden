@@ -1,0 +1,21 @@
+{
+  "name": "secret-garden",
+  "version": "0.0.1",
+  "dependencies": {},
+  "description": "Fetch secret ENV asynchronously",
+  "devDependencies": {
+    "aws-sdk": "^2.330.0",
+    "dotenv": "^6.2.0",
+    "mocha": "^5.2.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amancevice/secret-garden.git"
+  },
+  "author": "smallweirdnumber",
+  "license": "MIT"
+}
