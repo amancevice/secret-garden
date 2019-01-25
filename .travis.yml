@@ -8,6 +8,8 @@ script:
 deploy:
   provider: npm
   email: alexander.mancevice@gmail.com
+  api_key:
+    secure: UCqmrtbvPxBQec+Hjg7TpVAyf2sA1fvamJe4vXtF8mqxKNBzrSEiQXy1a+mAxz0YcnPTaKT8zxfBsJee+ePrmoB3U3Us9kRHgUQ4rEkw12f22wvzBFykrOFJ2FE3owibK+TaO3fEu7r+E4edDw1a6A0XgEQhejhXlfg2xWwCxGiIgJ+fhUshsj14dBVt+VJX9tC3pHeiU+p4/FlTw1BdXPTCecjfFne3PPCTdO0/w3Jy+JpA/DDDdSfoz/uTcrFhPsQmZwUKzMTkUOnJ9jIH/+pdA3t+zIxR6UCRB9iYIjfjrRH42My91jLmOyKlBGi834JWxpfzFYiGak21GXIumH4W/OcuHpiEJjFH4Zn3MiCfzMIFb87VkfQ68iy1abON3K8AfBKaqB4VuG67XYWubjhqhSV+8tZZV6MVmirTR8QzOLcv/c1pzUFtTAkwI6oEnZNFLVFWiE5eVFX5/BMUiU8f2Q40Qx4X7gURHPVQo+H9L4gd/pfq2qcxYfD59UOErgRDtzgtM/rrXJ+TQY8Ko/6gHFFuezhgDgQKBrI7UvdnCHlyhXC64T5/RQE+hHMKaSlhrk3rJhvToRx6oUnVkuVLVMURJE0ieo5JhaJwdFIvWP2qyPHSzBEWiPaNzWrhgIIyYmeBswIaEcjACoaVenXVF2Tv4e5BbyvrFgtg9dE=
   on:
     tags: true
     repo: amancevice/secret-garden
