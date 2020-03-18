@@ -4,9 +4,9 @@
   "dependencies": {},
   "description": "Fetch secret ENV asynchronously",
   "devDependencies": {
-    "aws-sdk": "^2.330.0",
-    "dotenv": "^6.2.0",
-    "mocha": "^5.2.0"
+    "aws-sdk": "^2.641.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^7.1.0"
   },
   "main": "index.js",
   "scripts": {
